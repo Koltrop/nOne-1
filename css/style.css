@@ -410,7 +410,8 @@ span {
         padding: 2.77px 13.39px 1.85px 13.39px;
     }
     .container-fluid {
-        padding-right: 24px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     .title {
         font-size: 50px;
