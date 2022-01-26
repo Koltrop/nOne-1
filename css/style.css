@@ -1,5 +1,29 @@
+@font-face {
+    font-family: 's';
+    src: url(fnt/Stem-Regular.woff2) format('woff2'), url(fnt/Stem-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'sm';
+    src: url(fnt/Stem-Medium.woff2) format('woff2'), url(fnt/Stem-Medium.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'sn';
+    src: url(fnt/Stem-Bold.woff2) format('woff2'), url(fnt/Stem-Bold.woff) format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
 body {
-    font-family: Stem-Regular;
+    font-family: s;
     font-size: 25px;
 }
 
@@ -21,7 +45,7 @@ header {
 }
 
 .title {
-    font-family: Stem-Medium;
+    font-family: sm;
     font-size: 60px;
     line-height: 110%;
     text-transform: uppercase;
@@ -55,7 +79,7 @@ header {
 }
 
 .date {
-    font-family: Stem-Medium;
+    font-family: sm;
     font-size: 28px;
     line-height: 140%;
     text-transform: uppercase;
@@ -68,7 +92,7 @@ header {
     border: 2px solid #FFCB08;
     box-sizing: border-box;
     border-radius: 48.4946px;
-    font-family: Stem-Regular;
+    font-family: s;
     font-size: 37px;
     line-height: 140%;
     color: #383937;
@@ -79,7 +103,7 @@ header {
 footer {
     background-color: black;
     color: #FFFFFF;
-    font-family: Stem-Regular;
+    font-family: s;
     font-size: 21px;
     line-height: 30px;
     padding-top: 92px;
@@ -87,7 +111,7 @@ footer {
 }
 
 span {
-    font-family: Stem-Regular;
+    font-family: s;
     font-size: 16px;
     line-height: 19px;
     color: #FAB529;
@@ -181,7 +205,7 @@ span {
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 43.1163px;
-    font-family: Stem-Regular;
+    font-family: s;
     font-size: 25px;
     line-height: 140%;
     text-decoration-line: underline;
@@ -190,7 +214,7 @@ span {
 }
 
 .text-26 {
-    font-family: Stem-Medium;
+    font-family: sm;
     font-size: 26px;
     line-height: 140%;
     text-transform: uppercase;
@@ -261,7 +285,7 @@ span {
         border: 2px solid #FFCB08;
         box-sizing: border-box;
         border-radius: 48.4946px;
-        font-family: Stem-Regular;
+        font-family: s;
         font-size: 19.3722px;
         color: #383937;
         padding: 2.77px 13.39px 1.85px 13.39px;
@@ -328,7 +352,7 @@ span {
         padding: 2.3px 10.9px 1.72px 10.33px;
     }
     .text-26 {
-        font-family: Stem-Medium;
+        font-family: sm;
         font-size: 14px;
         padding-left: 15px;
     }
@@ -464,7 +488,7 @@ span {
         padding: 2.3px 10.9px 1.72px 10.33px;
     }
     .text-26 {
-        font-family: Stem-Medium;
+        font-family: sm;
         font-size: 14px;
         padding-left: 15px;
     }
