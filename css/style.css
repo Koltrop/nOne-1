@@ -227,7 +227,8 @@ span {
     background-color: #FFCB08;
     border-bottom: 2px solid rgba(7, 0, 0, 0.781);
     padding-left: 0%;
-    padding-bottom: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
 .number {
@@ -419,6 +420,7 @@ span {
         width: 318px;
         height: auto;
         margin-bottom: 26px;
+        align-self: flex-end!important;
     }
     .cont-7 {
         margin-top: 18px;
@@ -444,7 +446,7 @@ span {
     }
 }
 
-@media (min-width: 768px) and (max-width: 834px) {
+@media (min-width: 768px) and (max-width: 839px) {
     .space-1 {
         padding-top: 75px;
     }
@@ -587,6 +589,7 @@ span {
     .img-3 {
         width: 347px;
         height: auto;
+        align-self: flex-end!important;
     }
     .img-log {
         width: 102px;
@@ -626,7 +629,7 @@ span {
     }
 }
 
-@media (min-width: 835px) and (max-width: 1919px) {
+@media (min-width: 840px) and (max-width: 1919px) {
     .text-37-1 {
         font-size: 35px;
     }
@@ -647,6 +650,7 @@ span {
     }
     .img-3 {
         height: 760px;
+        align-self: flex-end!important;
     }
     .d-1 {
         padding-bottom: 13px;
@@ -660,5 +664,85 @@ span {
     .partner-txt{
         font-size: 28px;
         line-height: 40px;
+    }
+}
+@media (min-width: 1020px) and (max-width: 1240px) {
+    .container-fluid{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .bar {
+        width: 150px;
+    }
+    .bar-2 {
+        width: 150px;
+    }
+    .bar-3 {
+        width: 120px;
+        height: 67px;
+    }
+    .date-2{
+        font-size: 27px;
+    }
+    .inf{
+        font-size: 22px;
+        width: 398px;
+    }
+    .fond {
+        z-index: 1;
+        width: 819px;
+    }
+    .img-3{
+        height: auto;
+        width: 100%;
+        align-self: flex-start!important;
+    }
+    .text-37 {
+        font-size: 25px;
+    }
+    .text-25 {
+        font-size: 15px;
+    }
+    .text-37-1 {
+        font-size: 25px;
+    }
+    .text-34-1 {
+        font-size: 24px;
+        padding-top: 27px;
+    }
+    .text-25-1{
+        font-size: 25px;
+    }
+    .space-1 {
+        padding-top: 349px;
+    }
+    .img-log{
+        width: 150px;
+    }
+    .txt-f{
+        font-size: 15px;
+    }
+    .partner-txt {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .list-group-flush>.list-group-item {
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+}
+@media (min-width: 1241px) and (max-width: 1490px) {
+    .space-1 {
+        padding-top: 202px;
+    }
+    .list-group-flush>.list-group-item {
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+    .text-34-1 {
+        padding-top: 27px;
     }
 }
