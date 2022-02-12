@@ -255,6 +255,15 @@ span {
 .space-1 {
     padding-top: 75px;
 }
+.partner-txt{
+    font-family: s;
+    color: #FFFFFF;
+    font-size: 37px;
+    line-height: 52px;
+}
+.partner{
+    margin-bottom: 100px;
+}
 
 @media (max-width: 767px) {
     header {
@@ -420,6 +429,18 @@ span {
     }
     .cont-9 {
         margin-bottom: 13px;
+    }
+    .partner-txt{
+        font-size: 19px;
+        line-height: 27px;
+        margin-bottom: 28px;
+    }
+    .partner{
+        margin-bottom: 99px;
+    }
+    .parnter-logo{
+        width: 126.5px;
+        height: auto;
     }
 }
 
@@ -591,6 +612,18 @@ span {
     .cont-6 {
         margin-top: 10px;
     }
+    .partner-txt{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 27px;
+    }
+    .partner{
+        margin-bottom: 70px;
+    }
+    .parnter-logo{
+        width: 131px;
+        height: auto;
+    }
 }
 
 @media (min-width: 835px) and (max-width: 1919px) {
@@ -623,5 +656,9 @@ span {
     }
     .space-1 {
         padding-top: 160px;
+    }
+    .partner-txt{
+        font-size: 28px;
+        line-height: 40px;
     }
 }
