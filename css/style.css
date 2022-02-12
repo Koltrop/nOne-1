@@ -736,7 +736,7 @@ span {
 }
 @media (min-width: 1241px) and (max-width: 1490px) {
     .space-1 {
-        padding-top: 202px;
+        padding-top: 180px;
     }
     .list-group-flush>.list-group-item {
         padding-bottom: 12px;
@@ -744,5 +744,13 @@ span {
     }
     .text-34-1 {
         padding-top: 27px;
+    }
+    .cont-8{
+        margin-top: 30px;
+    }
+}
+@media (min-width: 1491px) {
+    .cont-8{
+        margin-top: 50px;
     }
 }
