@@ -755,6 +755,26 @@ span {
     .txt-f {
         font-size: 18px;
     }
+    .title {
+        font-size: 55px;
+    }
+    .bar {
+        width: 150px;
+    }
+    .bar-2 {
+        width: 150px;
+    }
+    .bar-3 {
+        width: 120px;
+        height: 67px;
+    }
+    .date-2 {
+        font-size: 27px;
+    }
+    .inf {
+        font-size: 22px;
+        width: 398px;
+    }
 }
 
 @media (min-width: 1491px) {
@@ -763,5 +783,11 @@ span {
     }
     .space-1 {
         padding-top: 116px;
+    }
+}
+
+@media (min-width: 1491px) and (max-width: 1600px) {
+    .space-1 {
+        padding-top: 223px;
     }
 }
