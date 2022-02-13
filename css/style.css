@@ -256,13 +256,15 @@ span {
 .space-1 {
     padding-top: 75px;
 }
-.partner-txt{
+
+.partner-txt {
     font-family: s;
     color: #FFFFFF;
     font-size: 37px;
     line-height: 52px;
 }
-.partner{
+
+.partner {
     margin-bottom: 100px;
 }
 
@@ -432,15 +434,15 @@ span {
     .cont-9 {
         margin-bottom: 13px;
     }
-    .partner-txt{
+    .partner-txt {
         font-size: 19px;
         line-height: 27px;
         margin-bottom: 28px;
     }
-    .partner{
+    .partner {
         margin-bottom: 99px;
     }
-    .parnter-logo{
+    .parnter-logo {
         width: 126.5px;
         height: auto;
     }
@@ -615,15 +617,15 @@ span {
     .cont-6 {
         margin-top: 10px;
     }
-    .partner-txt{
+    .partner-txt {
         font-size: 22px;
         line-height: 32px;
         margin-bottom: 27px;
     }
-    .partner{
+    .partner {
         margin-bottom: 70px;
     }
-    .parnter-logo{
+    .parnter-logo {
         width: 131px;
         height: auto;
     }
@@ -661,13 +663,14 @@ span {
     .space-1 {
         padding-top: 160px;
     }
-    .partner-txt{
+    .partner-txt {
         font-size: 28px;
         line-height: 40px;
     }
 }
+
 @media (min-width: 1020px) and (max-width: 1240px) {
-    .container-fluid{
+    .container-fluid {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -684,10 +687,10 @@ span {
         width: 120px;
         height: 67px;
     }
-    .date-2{
+    .date-2 {
         font-size: 27px;
     }
-    .inf{
+    .inf {
         font-size: 22px;
         width: 398px;
     }
@@ -695,7 +698,7 @@ span {
         z-index: 1;
         width: 819px;
     }
-    .img-3{
+    .img-3 {
         height: auto;
         width: 100%;
         align-self: flex-start!important;
@@ -713,16 +716,16 @@ span {
         font-size: 24px;
         padding-top: 27px;
     }
-    .text-25-1{
+    .text-25-1 {
         font-size: 25px;
     }
     .space-1 {
-        padding-top: 349px;
+        padding-top: 472px;
     }
-    .img-log{
+    .img-log {
         width: 150px;
     }
-    .txt-f{
+    .txt-f {
         font-size: 15px;
     }
     .partner-txt {
@@ -734,9 +737,10 @@ span {
         padding-top: 12px;
     }
 }
+
 @media (min-width: 1241px) and (max-width: 1490px) {
     .space-1 {
-        padding-top: 180px;
+        padding-top: 200px;
     }
     .list-group-flush>.list-group-item {
         padding-bottom: 12px;
@@ -745,12 +749,19 @@ span {
     .text-34-1 {
         padding-top: 27px;
     }
-    .cont-8{
+    .cont-8 {
         margin-top: 30px;
     }
+    .txt-f {
+        font-size: 18px;
+    }
 }
+
 @media (min-width: 1491px) {
-    .cont-8{
+    .cont-8 {
         margin-top: 50px;
+    }
+    .space-1 {
+        padding-top: 116px;
     }
 }
