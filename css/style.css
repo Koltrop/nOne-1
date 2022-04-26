@@ -119,6 +119,8 @@ span {
     background-color: #FAB529;
     border-radius: 15px;
     padding-bottom: 75px;
+    padding-left: 56px;
+    padding-right: 61px;
 }
 
 .winner-num {
@@ -148,15 +150,17 @@ span {
     margin-top: 0px;
 }
 
-.num-6 {
+
+/*.num-6 {
     margin-top: -25px;
-}
+}*/
 
 .title-2 {
     font-family: 'sm';
     font-size: 80px;
     line-height: 88px;
     text-transform: uppercase;
+    color: #383937;
 }
 
 .list-group>.list-group-item {
@@ -165,7 +169,9 @@ span {
 }
 
 .arrow {
-    font-size: 80px;
+    font-size: 130px;
+    line-height: 45px;
+    font-weight: lighter;
     color: #FAB529;
     padding-right: 18px;
     padding-top: 0%;
@@ -193,8 +199,8 @@ span {
 .date-2 {
     margin-left: 5px;
     margin-top: 9px;
-    background: #FFCB08;
-    border: 2px solid #FFCB08;
+    background: #FAB529;
+    border: 2px solid #FAB529;
     box-sizing: border-box;
     border-radius: 48.4946px;
     font-family: s;
@@ -236,7 +242,7 @@ span {
 }
 
 .txt-end {
-    height: 36%;
+    height: 32%;
 }
 
 .inf-param {
@@ -249,6 +255,11 @@ span {
 .sucesions-img {
     margin-top: 69px;
     margin-bottom: 90px;
+}
+
+.polylog {
+    height: 24px;
+    width: auto;
 }
 
 @media (max-width: 767px) {
@@ -346,7 +357,8 @@ span {
         line-height: 35px;
     }
     .arrow {
-        font-size: 20px;
+        font-size: 40px;
+        line-height: 17px;
         padding-left: 8px;
         padding-top: 0%;
         padding-left: 0px;
@@ -418,6 +430,10 @@ span {
     .sucesions-img {
         margin-top: 38px;
         margin-bottom: 38px;
+    }
+    .polylog {
+        height: 12px;
+        width: auto;
     }
 }
 
@@ -534,7 +550,8 @@ span {
         line-height: 45px;
     }
     .arrow {
-        font-size: 32px;
+        font-size: 50px;
+        line-height: 23px;
         padding-right: 11px;
         padding-top: 0%;
         padding-left: 0px;
@@ -591,7 +608,7 @@ span {
         margin-bottom: 20px;
     }
     .txt-end {
-        height: 40%;
+        height: 45%;
     }
     .inf-param {
         margin-top: 56px;
@@ -601,6 +618,10 @@ span {
     .sucesions-img {
         margin-top: 46px;
         margin-bottom: 46px;
+    }
+    .polylog {
+        height: 16px;
+        width: auto;
     }
 }
 
@@ -720,7 +741,8 @@ span {
         line-height: 48px;
     }
     .arrow {
-        font-size: 32px;
+        font-size: 50px;
+        line-height: 23px;
         padding-right: 11px;
         padding-top: 0%;
         padding-left: 0px;
@@ -780,7 +802,7 @@ span {
         margin-bottom: 20px;
     }
     .txt-end {
-        height: 51%;
+        height: 45%;
     }
     .inf-param {
         margin-top: 56px;
@@ -790,6 +812,10 @@ span {
     .sucesions-img {
         margin-top: 46px;
         margin-bottom: 46px;
+    }
+    .polylog {
+        height: 16px;
+        width: auto;
     }
 }
 
@@ -849,11 +875,10 @@ span {
     }
     .line-yellow {
         background-color: #FAB529;
-        border-radius: 15px;
+        border-radius: 51px;
         padding-bottom: 22px;
-        padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * .5);
-        margin-bottom: 0px;
+        padding-right: 13px;
+        padding-left: 37px;
     }
     .winner-num {
         font-family: 'sn';
@@ -871,7 +896,7 @@ span {
         font-family: 'sm';
         font-size: 14px;
         text-transform: uppercase;
-        margin-top: 100px;
+        margin-top: 43px;
     }
     .sub-title-1-1 {
         font-family: 'sm';
@@ -880,7 +905,7 @@ span {
         margin-top: 0px;
     }
     .num-6 {
-        margin-top: 0px;
+        margin-top: 10px;
     }
     ul {
         padding-left: calc(var(--bs-gutter-x) * .75);
@@ -915,6 +940,17 @@ span {
     .sucesions-img {
         margin-top: 46px;
         margin-bottom: 46px;
+    }
+    .arrow {
+        font-size: 50px;
+        line-height: 23px;
+        padding-right: 11px;
+        padding-top: 0%;
+        padding-left: 0px;
+    }
+    .polylog {
+        height: 16px;
+        width: auto;
     }
 }
 
@@ -966,10 +1002,9 @@ span {
     .line-yellow {
         background-color: #FAB529;
         border-radius: 15px;
-        padding-bottom: 63px;
-        padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * .5);
-        margin-bottom: 0px;
+        padding-bottom: 100px;
+        padding-right: 40px;
+        padding-left: 45px;
     }
     .winner-num {
         font-family: 'sn';
@@ -996,7 +1031,7 @@ span {
         margin-top: 0px;
     }
     .num-6 {
-        margin-top: -13px;
+        margin-top: 25px;
     }
     .text-37 {
         font-size: 33px;
@@ -1011,6 +1046,6 @@ span {
         margin-bottom: 0px;
     }
     .txt-end {
-        height: 50%;
+        height: 40%;
     }
 }
